@@ -1,22 +1,30 @@
-# Vehicle Makes Database – SQL Practice
+# SQL Server Practice
 
-This repository contains my SQL practice solutions based on the **Vehicle Makes Database**.
+This repository contains SQL practice solutions completed during a SQL Server course.
+It includes queries written against more than one database schema to practice different SQL concepts.
 
-The goal of this project is to:
-
-- Practice SQL querying on a real, non-trivial database
-- Understand existing schemas and relationships
-- Improve problem-solving with joins, grouping, filtering, and subqueries
+The goal of this repository is to:
+- Practice SQL querying on non-trivial databases
+- Understand existing schemas and table relationships
+- Apply joins, grouping, filtering, subqueries, and self-referential logic
 
 ---
 
-## Database Used
+## Databases Used
 
-- Name: Vehicle Makes Database
-- Type: Restored SQL Server database
-- Focus: Vehicle makes, models, submodels, and detailed vehicle configurations
+### 1. Vehicle Makes Database
+- Focus: vehicle makes, models, submodels, and detailed vehicle configurations
+- Concepts practiced:
+  - JOINs across multiple tables
+  - GROUP BY and HAVING
+  - Aggregations
+  - Subqueries
+  - Handling ties and maximum values
 
-> Note: The database backup file is not included in this repository.
+### 2. Employee Database
+- Focus: employee–manager relationships
+- Concepts practiced:
+  - Self-referential tables
 
 ---
 
@@ -26,16 +34,26 @@ problems/ -> SQL queries for each problem
 notes/ -> Notes about schema and relationships
 diagrams/ -> Screenshots of database diagrams
 
+
 ---
 
 ## How to Use
 
-1. Restore the Vehicle Makes Database in SQL Server
+1. Restore the relevant database in SQL Server
 2. Open SQL Server Management Studio
-3. Run the queries from the `problems/` folder
+3. Run the queries from the appropriate folder
 
 ---
 
 ## Status
 
-🚧 In progress — actively solving and refining queries
+Course completed.  
+This repository represents finished practice work from the SQL Server course.
+```
+
+---
+
+
+
+
+
