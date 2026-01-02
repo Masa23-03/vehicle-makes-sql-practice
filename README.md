@@ -49,7 +49,7 @@ diagrams/ -> Screenshots of database diagrams
 
 Course completed.  
 This repository represents finished practice work from the SQL Server course.
-```
+
 
 ---
 
